@@ -1,0 +1,363 @@
+# depslib dependency file v1.0
+1747628005 source:c:\users\donovan\desktop\blitzcc\compiler\assem_x86\asm_insts.cpp
+	"..\std.h"
+	"insts.h"
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\std.h
+	"../config/config.h"
+	"../stdutil/stdutil.h"
+	<set>
+	<map>
+	<list>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<windows.h>
+
+1748041507 c:\users\donovan\desktop\blitzcc\config\config.h
+
+1745728026 c:\users\donovan\desktop\blitzcc\stdutil\stdutil.h
+	"../config/config.h"
+	<string>
+	<iostream>
+
+1747628005 c:\users\donovan\desktop\blitzcc\compiler\assem_x86\insts.h
+
+1747628005 source:c:\users\donovan\desktop\blitzcc\compiler\assem_x86\assem_x86.cpp
+	"../std.h"
+	"../ex.h"
+	"assem_x86.h"
+	<iomanip>
+
+1749342045 c:\users\donovan\desktop\blitzcc\compiler\ex.h
+
+1747628005 c:\users\donovan\desktop\blitzcc\compiler\assem_x86\assem_x86.h
+	"../assem.h"
+	<string>
+	<vector>
+	<iostream>
+	"insts.h"
+	"operand.h"
+
+1749341551 c:\users\donovan\desktop\blitzcc\compiler\assem.h
+	"..\linker\linker.h"
+
+1747960282 c:\users\donovan\desktop\blitzcc\linker\linker.h
+
+1747628005 c:\users\donovan\desktop\blitzcc\compiler\assem_x86\operand.h
+	<string>
+	<iostream>
+
+1747628005 source:c:\users\donovan\desktop\blitzcc\compiler\assem_x86\operand.cpp
+	"../std.h"
+	"../ex.h"
+	"operand.h"
+	"insts.h"
+
+1747628005 source:c:\users\donovan\desktop\blitzcc\compiler\codegen_x86\codegen_x86.cpp
+	"../std.h"
+	"codegen_x86.h"
+	"tile.h"
+
+1747628005 c:\users\donovan\desktop\blitzcc\compiler\codegen_x86\codegen_x86.h
+	"../codegen.h"
+
+1749341615 c:\users\donovan\desktop\blitzcc\compiler\codegen.h
+	"std.h"
+
+1747628005 c:\users\donovan\desktop\blitzcc\compiler\codegen_x86\tile.h
+
+1747628005 source:c:\users\donovan\desktop\blitzcc\compiler\codegen_x86\tile.cpp
+	"../std.h"
+	"codegen_x86.h"
+	"tile.h"
+
+1748477104 source:c:\users\donovan\desktop\blitzcc\compiler\compiler.cpp
+
+1749340780 source:c:\users\donovan\desktop\blitzcc\compiler\decl.cpp
+	"std.h"
+	"decl.h"
+	"type.h"
+
+1749341850 c:\users\donovan\desktop\blitzcc\compiler\decl.h
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\type.h
+	"decl.h"
+
+1749340702 source:c:\users\donovan\desktop\blitzcc\compiler\declnode.cpp
+	"std.h"
+	"nodes.h"
+
+1745132429 c:\users\donovan\desktop\blitzcc\compiler\nodes.h
+	"exprnode.h"
+	"stmtnode.h"
+	"declnode.h"
+	"prognode.h"
+
+1749342045 c:\users\donovan\desktop\blitzcc\compiler\exprnode.h
+	"node.h"
+	"varnode.h"
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\node.h
+	"ex.h"
+	"toker.h"
+	"environ.h"
+	"codegen.h"
+
+1745132429 c:\users\donovan\desktop\blitzcc\compiler\toker.h
+
+1749341951 c:\users\donovan\desktop\blitzcc\compiler\environ.h
+	"type.h"
+	"decl.h"
+	"label.h"
+
+1749342104 c:\users\donovan\desktop\blitzcc\compiler\label.h
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\varnode.h
+	"varnode.h"
+	"decl.h"
+
+1748562112 c:\users\donovan\desktop\blitzcc\compiler\stmtnode.h
+	"node.h"
+	"exprnode.h"
+	"declnode.h"
+
+1749341951 c:\users\donovan\desktop\blitzcc\compiler\declnode.h
+	"exprnode.h"
+	"stmtnode.h"
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\prognode.h
+	"node.h"
+	"codegen.h"
+
+1749340843 source:c:\users\donovan\desktop\blitzcc\compiler\environ.cpp
+	"std.h"
+	"environ.h"
+
+1749341041 source:c:\users\donovan\desktop\blitzcc\compiler\exprnode.cpp
+	"std.h"
+	"nodes.h"
+	<math.h>
+	<float.h>
+
+1749341100 source:c:\users\donovan\desktop\blitzcc\compiler\node.cpp
+	"std.h"
+	"nodes.h"
+
+1749341164 source:c:\users\donovan\desktop\blitzcc\compiler\parser.cpp
+	"std.h"
+	<cstdlib>
+	"parser.h"
+
+1749342381 c:\users\donovan\desktop\blitzcc\compiler\parser.h
+	"toker.h"
+	"nodes.h"
+
+1749341236 source:c:\users\donovan\desktop\blitzcc\compiler\prognode.cpp
+	"std.h"
+	"nodes.h"
+
+1749341290 source:c:\users\donovan\desktop\blitzcc\compiler\std.cpp
+	"std.h"
+
+1749341346 source:c:\users\donovan\desktop\blitzcc\compiler\stmtnode.cpp
+	"std.h"
+	"nodes.h"
+
+1745132429 source:c:\users\donovan\desktop\blitzcc\compiler\toker.cpp
+	"std.h"
+	<cctype>
+	"toker.h"
+	"ex.h"
+
+1749341452 source:c:\users\donovan\desktop\blitzcc\compiler\type.cpp
+	"std.h"
+	"type.h"
+
+1749341497 source:c:\users\donovan\desktop\blitzcc\compiler\varnode.cpp
+	"std.h"
+	"nodes.h"
+
+1747628005 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\asm_insts.cpp
+	"..\std.h"
+	"insts.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\std.h
+	"../config/config.h"
+	"../stdutil/stdutil.h"
+	<set>
+	<map>
+	<list>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<windows.h>
+
+1748041507 c:\users\donovan\desktop\mingw-blitz3d\config\config.h
+
+1745728026 c:\users\donovan\desktop\mingw-blitz3d\stdutil\stdutil.h
+	"../config/config.h"
+	<string>
+	<iostream>
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\insts.h
+
+1747628005 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\assem_x86.cpp
+	"../std.h"
+	"../ex.h"
+	"assem_x86.h"
+	<iomanip>
+
+1749342045 c:\users\donovan\desktop\mingw-blitz3d\compiler\ex.h
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\assem_x86.h
+	"../assem.h"
+	<string>
+	<vector>
+	<iostream>
+	"insts.h"
+	"operand.h"
+
+1749341551 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem.h
+	"..\linker\linker.h"
+
+1747960282 c:\users\donovan\desktop\mingw-blitz3d\linker\linker.h
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\operand.h
+	<string>
+	<iostream>
+
+1747628005 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\operand.cpp
+	"../std.h"
+	"../ex.h"
+	"operand.h"
+	"insts.h"
+
+1747628005 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen_x86\codegen_x86.cpp
+	"../std.h"
+	"codegen_x86.h"
+	"tile.h"
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen_x86\codegen_x86.h
+	"../codegen.h"
+
+1749341615 c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen.h
+	"std.h"
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen_x86\tile.h
+
+1747628005 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen_x86\tile.cpp
+	"../std.h"
+	"codegen_x86.h"
+	"tile.h"
+
+1748477104 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\compiler.cpp
+
+1749340780 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\decl.cpp
+	"std.h"
+	"decl.h"
+	"type.h"
+
+1749341850 c:\users\donovan\desktop\mingw-blitz3d\compiler\decl.h
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\type.h
+	"decl.h"
+
+1749340702 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\declnode.cpp
+	"std.h"
+	"nodes.h"
+
+1745132429 c:\users\donovan\desktop\mingw-blitz3d\compiler\nodes.h
+	"exprnode.h"
+	"stmtnode.h"
+	"declnode.h"
+	"prognode.h"
+
+1749342045 c:\users\donovan\desktop\mingw-blitz3d\compiler\exprnode.h
+	"node.h"
+	"varnode.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\node.h
+	"ex.h"
+	"toker.h"
+	"environ.h"
+	"codegen.h"
+
+1745132429 c:\users\donovan\desktop\mingw-blitz3d\compiler\toker.h
+
+1749341951 c:\users\donovan\desktop\mingw-blitz3d\compiler\environ.h
+	"type.h"
+	"decl.h"
+	"label.h"
+
+1749342104 c:\users\donovan\desktop\mingw-blitz3d\compiler\label.h
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\varnode.h
+	"varnode.h"
+	"decl.h"
+
+1748562112 c:\users\donovan\desktop\mingw-blitz3d\compiler\stmtnode.h
+	"node.h"
+	"exprnode.h"
+	"declnode.h"
+
+1749341951 c:\users\donovan\desktop\mingw-blitz3d\compiler\declnode.h
+	"exprnode.h"
+	"stmtnode.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\prognode.h
+	"node.h"
+	"codegen.h"
+
+1749340843 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\environ.cpp
+	"std.h"
+	"environ.h"
+
+1749341041 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\exprnode.cpp
+	"std.h"
+	"nodes.h"
+	<math.h>
+	<float.h>
+
+1749341100 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\node.cpp
+	"std.h"
+	"nodes.h"
+
+1749341164 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\parser.cpp
+	"std.h"
+	<cstdlib>
+	"parser.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\parser.h
+	"toker.h"
+	"nodes.h"
+
+1749341236 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\prognode.cpp
+	"std.h"
+	"nodes.h"
+
+1749341290 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\std.cpp
+	"std.h"
+
+1749341346 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\stmtnode.cpp
+	"std.h"
+	"nodes.h"
+
+1745132429 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\toker.cpp
+	"std.h"
+	<cctype>
+	"toker.h"
+	"ex.h"
+
+1749341452 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\type.cpp
+	"std.h"
+	"type.h"
+
+1749341497 source:c:\users\donovan\desktop\mingw-blitz3d\compiler\varnode.cpp
+	"std.h"
+	"nodes.h"
+

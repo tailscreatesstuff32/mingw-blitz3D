@@ -1,0 +1,137 @@
+# depslib dependency file v1.0
+1749269659 source:c:\users\donovan\desktop\mingw-blitz3d\blitzcc\libs.cpp
+	"libs.h"
+	<windows.h>
+
+1749449195 c:\users\donovan\desktop\mingw-blitz3d\blitzcc\libs.h
+	<map>
+	<list>
+	<vector>
+	<string>
+	"../linker/linker.h"
+	"../compiler/environ.h"
+	"../compiler/parser.h"
+	"../bbruntime_dll/bbruntime_dll.h"
+
+1747960282 c:\users\donovan\desktop\mingw-blitz3d\linker\linker.h
+
+1749341951 c:\users\donovan\desktop\mingw-blitz3d\compiler\environ.h
+	"type.h"
+	"decl.h"
+	"label.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\type.h
+	"decl.h"
+
+1749341850 c:\users\donovan\desktop\mingw-blitz3d\compiler\decl.h
+
+1749342104 c:\users\donovan\desktop\mingw-blitz3d\compiler\label.h
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\parser.h
+	"toker.h"
+	"nodes.h"
+
+1745132429 c:\users\donovan\desktop\mingw-blitz3d\compiler\toker.h
+
+1745132429 c:\users\donovan\desktop\mingw-blitz3d\compiler\nodes.h
+	"exprnode.h"
+	"stmtnode.h"
+	"declnode.h"
+	"prognode.h"
+
+1749342045 c:\users\donovan\desktop\mingw-blitz3d\compiler\exprnode.h
+	"node.h"
+	"varnode.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\node.h
+	"ex.h"
+	"toker.h"
+	"environ.h"
+	"codegen.h"
+
+1749342045 c:\users\donovan\desktop\mingw-blitz3d\compiler\ex.h
+
+1749341615 c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen.h
+	"std.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\std.h
+	"../config/config.h"
+	"../stdutil/stdutil.h"
+	<set>
+	<map>
+	<list>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<iomanip>
+	<windows.h>
+
+1748041507 c:\users\donovan\desktop\mingw-blitz3d\config\config.h
+
+1745728026 c:\users\donovan\desktop\mingw-blitz3d\stdutil\stdutil.h
+	"../config/config.h"
+	<string>
+	<iostream>
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\varnode.h
+	"varnode.h"
+	"decl.h"
+
+1748562112 c:\users\donovan\desktop\mingw-blitz3d\compiler\stmtnode.h
+	"node.h"
+	"exprnode.h"
+	"declnode.h"
+
+1749341951 c:\users\donovan\desktop\mingw-blitz3d\compiler\declnode.h
+	"exprnode.h"
+	"stmtnode.h"
+
+1749342381 c:\users\donovan\desktop\mingw-blitz3d\compiler\prognode.h
+	"node.h"
+	"codegen.h"
+
+1749263500 c:\users\donovan\desktop\mingw-blitz3d\bbruntime_dll\bbruntime_dll.h
+	<windows.h>
+	"../stdutil/stdutil.h"
+
+1749269660 source:c:\users\donovan\desktop\mingw-blitz3d\blitzcc\main.cpp
+	"libs.h"
+	<iostream>
+	"../config/config.h"
+	"../stdutil/stdutil.h"
+	<set>
+	<map>
+	<list>
+	<string>
+	<vector>
+	<fstream>
+	<iostream>
+	<iomanip>
+	"../linker/linker.h"
+	"../compiler/environ.h"
+	"../compiler/parser.h"
+	"../compiler/assem_x86/assem_x86.h"
+	"../compiler/codegen_x86/codegen_x86.h"
+	"../bbruntime_dll/bbruntime_dll.h"
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\assem_x86.h
+	"../assem.h"
+	<string>
+	<vector>
+	<iostream>
+	"insts.h"
+	"operand.h"
+
+1749341551 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem.h
+	"..\linker\linker.h"
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\insts.h
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\assem_x86\operand.h
+	<string>
+	<iostream>
+
+1747628005 c:\users\donovan\desktop\mingw-blitz3d\compiler\codegen_x86\codegen_x86.h
+	"../codegen.h"
+

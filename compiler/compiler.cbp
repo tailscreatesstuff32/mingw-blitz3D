@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="compiler" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/compiler" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-w" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/compiler" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="debug/libcompiler.a" />
+		</Linker>
+		<Unit filename="assem.h" />
+		<Unit filename="assem_x86/asm_insts.cpp" />
+		<Unit filename="assem_x86/assem_x86.cpp" />
+		<Unit filename="assem_x86/assem_x86.h" />
+		<Unit filename="assem_x86/insts.h" />
+		<Unit filename="assem_x86/operand.cpp" />
+		<Unit filename="assem_x86/operand.h" />
+		<Unit filename="codegen.h" />
+		<Unit filename="codegen_x86/codegen_x86.cpp" />
+		<Unit filename="codegen_x86/codegen_x86.h" />
+		<Unit filename="codegen_x86/tile.cpp" />
+		<Unit filename="codegen_x86/tile.h" />
+		<Unit filename="compiler.cpp" />
+		<Unit filename="compiler.h" />
+		<Unit filename="decl.cpp" />
+		<Unit filename="decl.h" />
+		<Unit filename="declnode.cpp" />
+		<Unit filename="declnode.h" />
+		<Unit filename="environ.cpp" />
+		<Unit filename="environ.h" />
+		<Unit filename="ex.h" />
+		<Unit filename="exprnode.cpp" />
+		<Unit filename="exprnode.h" />
+		<Unit filename="label.h" />
+		<Unit filename="node.cpp" />
+		<Unit filename="node.h" />
+		<Unit filename="nodes.h" />
+		<Unit filename="parser.cpp" />
+		<Unit filename="parser.h" />
+		<Unit filename="prognode.cpp" />
+		<Unit filename="prognode.h" />
+		<Unit filename="std.cpp" />
+		<Unit filename="std.h" />
+		<Unit filename="stmtnode.cpp" />
+		<Unit filename="stmtnode.h" />
+		<Unit filename="stringmap.h" />
+		<Unit filename="toker.cpp" />
+		<Unit filename="toker.h" />
+		<Unit filename="type.cpp" />
+		<Unit filename="type.h" />
+		<Unit filename="var.h" />
+		<Unit filename="varnode.cpp" />
+		<Unit filename="varnode.h" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
