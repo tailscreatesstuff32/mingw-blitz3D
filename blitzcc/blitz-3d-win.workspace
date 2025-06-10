@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <CodeBlocks_workspace_file>
 	<Workspace title="blitz-3d-win">
-		<Project filename="../bblaunch/bblaunch.cbp" />
 		<Project filename="blitzcc.cbp">
 			<Depends filename="../stdutil/stdutil.cbp" />
 			<Depends filename="../compiler/compiler.cbp" />

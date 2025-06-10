@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="blitz-3d-win">
+		<Project filename="blitzcc/blitzcc.cbp">
+			<Depends filename="stdutil/stdutil.cbp" />
+			<Depends filename="compiler/compiler.cbp" />
+		</Project>
+		<Project filename="config/config.cbp" />
+		<Project filename="stdutil/stdutil.cbp" />
+		<Project filename="compiler/compiler.cbp">
+			<Depends filename="stdutil/stdutil.cbp" />
+		</Project>
+		<Project filename="Linker/Linker.cbp" />
+		<Project filename="bbruntime_dll/bbruntime_dll.cbp" />
+		<Project filename="Debugger/Debugger.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
